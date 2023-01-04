@@ -10,7 +10,7 @@ const Price = () => {
       <div className="mb-6 md:mb-0">
         <h2 className="text-3xl font-bold mb-6">Танд санал болгож буй үнийн санал</h2>
         <p className="text-gray-500">
-          Didn't find your answer in the FAQ?
+          Didn&apos;t find your answer in the FAQ?
           <a href="#!" className="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 transition duration-300">Contact
             our sales team</a>.
         </p>

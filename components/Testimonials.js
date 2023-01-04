@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 const Testimonials = () => {
@@ -21,13 +20,15 @@ const Testimonials = () => {
                     хүсэн ерөөе.&ldquo;
                   </p>
                   <div className="mt-12 mb-6 flex justify-center">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                    <Image
+                      src="/assets/img/avatars/oyunbat.png"
                       className="rounded-full w-24 h-24 shadow-lg"
                       alt="smaple image"
+                      width={72}
+                      height={72}
                     />
                   </div>
-                  <p className="text-gray-500 mb-8">- Ц.Наран-Энхжин</p>
+                  <p className="text-gray-500 mb-8">С.Оюунбат</p>
                 </div>
                 <div className="carousel-item relative float-left w-full text-center">
                   <p className="text-xl text-light mx-auto text-gray-700 max-w-4xl text-purple-500">
@@ -36,13 +37,16 @@ const Testimonials = () => {
                     adipisicing architecto elit sed adipiscing elit.&ldquo;
                   </p>
                   <div className="mt-12 mb-6 flex justify-center">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                    <Image
+                      src="/assets/img/avatars/oyunbat.png"
                       className="rounded-full w-24 h-24 shadow-lg"
                       alt="smaple image"
+                      width={72}
+                      height={72}
+                      
                     />
                   </div>
-                  <p className="text-gray-500 mb-8">- Д.Ганцэцэг</p>
+                  <p className="text-gray-500 mb-8">Н.Ганцэцэг</p>
                 </div>
                 <div className="carousel-item relative float-left w-full text-center">
                   <p className="text-xl text-light mx-auto text-gray-700 max-w-4xl text-purple-500">
@@ -51,13 +55,16 @@ const Testimonials = () => {
                     laborum neque cupiditate assumenda in maiores.&ldquo;
                   </p>
                   <div className="mt-12 mb-6 flex justify-center">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                    <Image
+                      src="/assets/img/avatars/ariuntungalag.jpg"
                       className="rounded-full w-24 h-24 shadow-lg"
                       alt="smaple image"
+                      width={72}
+                      height={72}
+                     
                     />
                   </div>
-                  <p className="text-gray-500 mb-8">- Ц.Нямцэцэг</p>
+                  <p className="text-gray-500 mb-8">Н.Ариунтунгалаг</p>
                 </div>
               </div>
               <button
